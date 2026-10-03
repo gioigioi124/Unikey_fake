@@ -1,0 +1,86 @@
+# ==========================================
+# Gitignore for x-unikey / UniKey Project
+# ==========================================
+
+# Compiled binaries & libraries
+*.exe
+*.dll
+*.so
+*.so.*
+*.dylib
+*.a
+*.lib
+*.out
+*.app
+
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.la
+*.al
+
+# Debug & symbols
+*.pdb
+*.ilk
+*.idb
+*.exp
+
+# Build & distribution outputs
+dist/
+build/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# Autotools build artifacts (retain Makefile.am, Makefile.in, config.h.in)
+Makefile
+!Makefile.am
+!Makefile.in
+config.h
+!config.h.in
+config.log
+config.status
+config.cache
+stamp-h1
+libtool
+.deps/
+.libs/
+
+# Legacy CVS revision control directories
+**/CVS/
+CVS/
+
+# IDE & Editor settings
+.vs/
+*.user
+*.suo
+*.userosv
+*.sln.docstates
+.vscode/
+.idea/
+
+# OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Temporary & backup files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# AI Agent & local workspace artifacts
+.agents/
